@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="../css/style1.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+</head>
+
+<body>
+    <section class="section" id="menu"></section>
+    <script>
+        $("#menu").load("../index.html #menu");
+    </script>
+    <script type="text/javascript">
+        function openImageWindow(src) {
+            var image = new Image();
+            image.src = src;
+            var width = image.width;
+            var height = image.height;
+            window.open(src, "Image", "width=" + width + ",height=" + height);
+        }
+    </script>
+    <div id="wrapper2">
+        <h2>Моё вдохновение</h2>
+        <div class="row">
+            <div class="block16">
+                <img src='img3/gallery1.jpg' alt='Фотография' class="responsive" onclick='openImageWindow(this.src);'>
+            </div>
+            <div class="block16">
+                <img src='img3/gallery2.jpg' alt='Фотография' class="responsive" onclick='openImageWindow(this.src);'>
+            </div>
+            <div class="block16">
+                <img src='img3/gallery3.jpg' alt='Фотография' class="responsive" onclick='openImageWindow(this.src);'>
+            </div>
+        </div>
+    </div>
+    <div id="wrapper3">
+        <div class="row">
+            <div class="block16">
+                <img src='img3/gallery4.jpg' alt='Фотография' class="responsive" onclick='openImageWindow(this.src);'>
+            </div>
+            <div class="block16">
+                <img src='img3/gallery5.jpg' alt='Фотография' class="responsive" onclick='openImageWindow(this.src);'>
+            </div>
+            <div class="block16">
+                <img src='img3/gallery6.jpg' alt='Фотография' class="responsive" onclick='openImageWindow(this.src);'>
+            </div>
+        </div>
+    </div>
+
+</body>
+<footer id="foot"></footer>
+<script>
+    $("#foot").load("../index.html #footer");
+</script>
+
+</html>

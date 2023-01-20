@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>writer</title>
+  <link href="css/style1.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="section" id="menu">
+      <div class="menu-block">
+        <nav class="menu-nav">
+          <a href="../index.html" class="menu-nav_link">ГЛАВНАЯ</a>
+          <a href="../menu/about_me.html" class="menu-nav_link">ОБО МНЕ</a>
+          <a href="../menu/stories.html" class="menu-nav_link">РАССКАЗЫ</a>
+          <a href="../menu/gallery.html" class="menu-nav_link"> ГАЛЕРЕЯ</a>
+          <a href="../menu/contacts.html" class="menu-nav_link">КОНТАКТЫ</a>
+        </nav>
+      </div>
+      <a href="/#" class="menu-btn"><span></span></a>
+    </div>
+  </header>
+
+  <script type="text/javascript" src="js/func.js"></script>
+
+  <div id="wrapper1">
+    <h2>ТАТЬЯНА ЛИСИЦЫНА</h2>
+    <div class="row">
+      <div class="block1">
+        <img src="img/img2.jpg" class="responsive">
+      </div>
+      <div class="block2 text">
+        <span class="tab">
+          Вам нравятся истории о сильных женщинах?</span><br><span class="tab">Прочитав одну из моих любимых книг
+          "Унесённые ветром" я
+          поняла, что могу использовать образ главной героини и её девиз "Завтра будет новый день", когда мне
+          тяжело.</span>Судьба испытывает нас. Своими книгами я хотела вдохновить своих читателей на борьбу, с чем бы
+        это ни было: с судьбой, с врагами и главное - со своим характером.<br><span class="tab">
+          Я покажу Вам свой мир, в котором главные герои обаятельны и умны. Они никогда не позволят портить себе
+          жизнь ни близким людям, ни судьбе. <br>
+          <span class="tab">Вперёд! И как написал В.Каверин: "Бороться и искать найти и не сдаваться!"</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="wrapper2">
+    <h2>ТРИЛОГИЯ "ДВЕНАДЦАТЬ СОСЕН"</h2>
+    <div class="row">
+      <div class="block3">
+        <a href="book/love.html"><img src="img/lake-man.jpg" class="responsive"></a>
+        <a href="book/love.html" class="button2">ЧИТАТЬ</a>
+      </div>
+      <div class="block3">
+        <a href="book/no_life.html"><img src="img/no_life.jpg" class="responsive"></a>
+        <a href="book/no_life.html" class="button2">ЧИТАТЬ</a>
+      </div>
+      <div class="block3a">
+        <a href="book/you.html"><img src="img/you.jpg" class="responsive"></a>
+        <a href="book/you.html" class="button2">ЧИТАТЬ</a>
+      </div>
+      <div class="block4 text"><span class="tab"> Кто она?<br>Беженка, оказавшаяся в Москве с больной матерью на руках?
+          <br>Разлучница, влюбившаяся в чужого мужа?
+          <br>Авантюристка, готовая на убийство, чтобы сохранить свой дом?
+        </span><br>
+        <span class="tab">Знакомьтесь!<br> Кристина по прозвищу Ворона, которая никогда не сдаётся. </span>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div id="wrapper3">
+    <h2>ЛЮБОВНЫЕ РОМАНЫ</h2>
+    <div class="row">
+      <div class="block5">
+        <img src="img/cama2.jpg" class="responsive rotate cover">
+        <a href="book/camilla.html" class="button2">ЧИТАТЬ</a>
+      </div>
+      <div class="block5">
+        <img src="img/victory.jpg" class="responsive rotate cover2">
+        <a href="book/victory.html" class="button2">ЧИТАТЬ</a>
+      </div>
+      <div class="block5a">
+        <img src="img/zoya.jpg" class="responsive rotate cover3">
+        <a href="book/flower.html" class="button2">ЧИТАТЬ</a>
+      </div>
+      <div id="block6" class="text">
+        <p></p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.querySelector('.cover').addEventListener('mouseover', function () {
+      $('#block6').load("book/camilla.html #container");
+    });
+
+    document.querySelector('.cover2').addEventListener('mouseover', function () {
+      $('#block6').load("book/victory.html #container");
+
+    });
+    document.querySelector('.cover3').addEventListener('mouseover', function () {
+      $('#block6').load("book/flower.html #container");
+
+    });
+  </script>
+
+  <div id="wrapper4">
+    <div class="row">
+      <div class="block5">
+        <img src="img/agent.jpg" class="responsive rotate cover4">
+        <a href="book/agent.html" class="button2">ЧИТАТЬ</a>
+      </div>
+      <div class="block5">
+        <img src="img/betrayal.jpg" class="responsive rotate cover5">
+        <a href="book/betrayal.html" class="button2">ЧИТАТЬ</a>
+      </div>
+
+      <div class="block5a">
+        <img src="img/taina.jpg" class="responsive rotate cover6"></a>
+        <a href="book/taina.html" class="button2 ">ЧИТАТЬ</a>
+      </div>
+      <div id="block7" class="text">
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <script>
+
+    document.querySelector('.cover4').addEventListener('mouseover', function () {
+      $('#block7').load("book/agent.html #container");
+    });
+    document.querySelector('.cover5').addEventListener('mouseover', function () {
+      $('#block7').load("book/betrayal.html #container");
+    });
+    document.querySelector('.cover6').addEventListener('mouseover', function () {
+      $('#block7').load("book/taina.html #container");
+
+    });
+  </script>
+  <div id="wrapper5">
+    <h2>МИСТИКА И БЫТОВОЕ ФЭНТЕЗИ</h2>
+    <div class="row">
+      <div class="block5">
+        <img src="img/remind.jpg" class="responsive rotate cover7">
+        <a href="book/remind.html" class="button2">ЧИТАТЬ</a>
+      </div>
+      <div class="block5">
+        <img src="img/winner.jpg" class="responsive rotate cover8">
+        <a href="book/last.html" class="button2">ЧИТАТЬ</a>
+      </div>
+      <div class="block5a">
+        <img src="img/vopreki2.jpg" class="responsive rotate cover9">
+        <a href="book/vopreki.html" class="button2">ЧИТАТЬ</a>
+      </div>
+      <div id="block9" class="text">
+
+      </div>
+    </div>
+  </div>
+  <script>
+
+    document.querySelector('.cover7').addEventListener('mouseover', function () {
+      $('#block9').load("book/remind.html #container");
+    });
+    document.querySelector('.cover8').addEventListener('mouseover', function () {
+      $('#block9').load("book/last.html #container");
+    });
+    document.querySelector('.cover9').addEventListener('mouseover', function () {
+      $('#block9').load("book/vopreki.html #container");
+
+    });
+  </script>
+
+  <div id="footer">
+    <div class="footer_col"><a href="/">Татьяна Лисицына
+      </a></div>
+    <div class="footer_col">
+      <div class="networks">
+        <a href="https://wa.me/79261152700" target="_blank"><img src="/img/vc.png"></a>
+        <a href="https://t.me/solotatuana" target="_blank"><img src="/img/telegram.png" style="margin:1.5px ;"></a>
+
+      </div>
+    </div>
+    <div class="footer_col">
+      <a href="mailto:solotatyana12@gmail.com">Написать письмо</a>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
